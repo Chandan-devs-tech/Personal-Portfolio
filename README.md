@@ -98,7 +98,7 @@
 Install this project with:
 
 - Open your command prompt or terminal and run.
-- git clone https://github.com/Chandan-devs-tech/Portfolio.git
+- git clone https://github.com/Chandan-devs-tech/Personal-Portfolio.git
 
 ### Usage
 
