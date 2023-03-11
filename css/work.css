@@ -52,6 +52,7 @@
   padding-top: 16px;
 }
 
+h3,
 h4 {
   font-family: "Inter", sans-serif;
   font-weight: 600;
@@ -91,7 +92,7 @@ h4 {
 
 .see-project {
   padding: 12px;
-  background: #36b37f;
+  background: #1c5e3d;
   font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 17px;
