@@ -74,6 +74,7 @@
 > Added a Image of my project.
 
 - [Live Demo Link](https://chandan-devs-tech.github.io/Personal-Portfolio/)
+- [Loom Video Link](https://www.loom.com/share/0678e1b2b5694a898b60a73a52e733d2)
 
 <img src="Portfolio-Desktop-Version.png" alt="Portfolio-Desktop-Version-Img" width="800px"  height="auto" />
 
