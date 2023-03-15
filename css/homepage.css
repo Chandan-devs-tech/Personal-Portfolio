@@ -15,13 +15,41 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-nav {
+.nav {
   height: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: transparent;
+}
+
+.items {
+  height: 0;
+}
+
+.invisible {
+  display: none;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subItems a {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  margin-top: 400px;
+  margin-left: 28px;
+}
+
+.subItem {
+  margin-bottom: 40px;
 }
 
 .header-title {
@@ -44,6 +72,29 @@ nav {
   .nav-links {
     display: none;
   }
+}
+
+@media (min-width: 768px) {
+  .hamItems {
+    display: none;
+  }
+}
+
+.hamItems {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.btnX {
+  font-size: 40px;
+  color: #67798e;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .stroke {
