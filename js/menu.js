@@ -24,5 +24,3 @@ menu.addEventListener('click', () => {
   mobileNav.classList.remove('invisible');
   hide.classList.remove('invisible');
 });
-
-
