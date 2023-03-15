@@ -22,7 +22,19 @@
   <body>
     <!-- Header Section Of Portfolio -->
     <header>
-      <nav>
+      <section class="hamItems">
+        <div class="closeBtn">
+          <button class="btnX" type="button">&times</button>
+        </div>
+        <nav class="items">
+          <ul class="subItems">
+            <li class="subItem"><a href="#portfolio">Portfolio</a></li>
+            <li class="subItem"><a href="#about">About</a></li>
+            <li class="subItem"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </section>
+      <nav class="mob-nav">
         <a href="#" class="header-title">Welcome</a>
         <ul class="nav-links">
           <li class="nav-links-effect"><a href="#">Portoflio</a></li>
@@ -37,7 +49,7 @@
       </nav>
     </header>
     <!-- Homepage Of Portfolio -->
-    <section class="hero-intro">
+    <section class="hero-intro" id="portfolio">
       <div class="hero-intro-container">
         <h1 class="hero-intro-heading">
           Hey there. I’m Chandan<br /><span class="span-text">
@@ -172,7 +184,7 @@
       </div>
     </section>
     <!-- About-Me Section -->
-    <section class="about-me">
+    <section class="about-me" id="about">
       <div class="primary-text-about-me">
         <h3 class="primary-text-about-me-heading">About me</h3>
       </div>
@@ -231,7 +243,7 @@
       </div>
     </section>
     <!-- Footer section -->
-    <footer class="footer-img">
+    <footer class="footer-img" id="contact">
       <div class="footer-desktop-container">
         <div class="last-msg">
           <p class="last-msg-text">
@@ -305,6 +317,6 @@
         <hr />
       </div>
     </footer>
-    <script src="js/index.js"></script>
+    <script src="js/menu.js"></script>
   </body>
 </html>
