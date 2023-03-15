@@ -15,7 +15,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-.nav {
+.mob-nav {
   height: 50px;
   width: 100%;
   display: flex;
@@ -65,7 +65,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  padding-right: 30px;
+  padding-right: 32px;
   cursor: pointer;
 }
 
@@ -203,7 +203,7 @@ body {
     padding-bottom: 280px;
   }
 
-  nav {
+  .mob-nav {
     position: fixed;
     display: flex;
     justify-content: center;
