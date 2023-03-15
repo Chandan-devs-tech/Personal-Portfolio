@@ -15,13 +15,42 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-nav {
+.mob-nav {
   height: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: transparent;
+}
+
+.items {
+  height: 0;
+}
+
+.invisible {
+  display: none;
+}
+
+.closeBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.subItems a {
+  list-style-type: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  text-decoration: none;
+  margin-top: 400px;
+  margin-left: 28px;
+  color: #3a4a42;
+}
+
+.subItem {
+  margin-bottom: 40px;
 }
 
 .header-title {
@@ -36,7 +65,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 3px;
-  padding-right: 30px;
+  padding-right: 32px;
   cursor: pointer;
 }
 
@@ -44,6 +73,29 @@ nav {
   .nav-links {
     display: none;
   }
+}
+
+@media (min-width: 768px) {
+  .hamItems {
+    display: none;
+  }
+}
+
+.hamItems {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+.btnX {
+  font-size: 40px;
+  color: #67798e;
+  background-color: transparent;
+  border-color: transparent;
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
 
 .stroke {
@@ -151,7 +203,7 @@ nav {
     padding-bottom: 280px;
   }
 
-  nav {
+  .mob-nav {
     position: fixed;
     display: flex;
     justify-content: center;
