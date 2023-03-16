@@ -58,7 +58,7 @@ const projectList = [
   },
   {
     id: 4,
-    title: 'Clone Netflix',
+    title: 'Netflix Clone',
     discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
     technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
@@ -76,7 +76,7 @@ const projectList = [
   },
   {
     id: 6,
-    title: 'Clone Spotify',
+    title: 'Spotify Clone',
     discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
     technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
@@ -115,24 +115,31 @@ const popup = (id, title, discription, imageLink, technologies, liveLink, source
       </div>
       <div class="closeBtnContainer">
         <button class="closeBtn" id="closeBtn-${id}">&times</button>
+        <img class="desktopCloseBtn" src="./Assets/Disabled1.svg" id="deskCloseBtn-${id}"/>
       </div>
-      <h1 class="popHeading">${title}</h1>
-      <ul class="techList">
-        <li class="techItem">${technologies[0]}</li>
-        <li class="techItem">${technologies[1]}</li>
-        <li class="techItem">${technologies[2]}</li>
-      </ul>
-      <p class="popPara">${discription}</p>
-      <div class="popupBtnContainer">
-        <button class="popupBtn">
-          <a href="${liveLink}">See Live</a>
-          <img src="./Assets/see live icon.svg"/>
-        </button>
-        <button class="popupBtn">
-          <a href="${sourceLink}">See Source</a>
-          <img src="./Assets/Vector.svg"/>
-        </button>
-      </div>      
+      <div class="popDiv">
+        <div class="popDiv1">
+          <h1 class="popHeading">${title}</h1>
+          <ul class="techList">
+            <li class="techItem">${technologies[0]}</li>
+            <li class="techItem">${technologies[1]}</li>
+            <li class="techItem">${technologies[2]}</li>
+          </ul>
+        </div>
+        <div class="popDiv2">
+          <p class="popPara">${discription}</p>
+        </div>
+        <div class="popDiv3 popupBtnContainer">
+          <button class="popupBtn">
+            <a href="${liveLink}">See Live</a>
+            <img src="./Assets/see live icon.svg"/>
+          </button>
+          <button class="popupBtn">
+            <a href="${sourceLink}">See Source</a>
+            <img src="./Assets/Vector.svg"/>
+          </button>
+        </div> 
+      </div>
     </div>
   </div>`;
 
@@ -162,5 +169,13 @@ projectList.forEach((project) => {
   closeBtn.addEventListener('click', () => {
     const showpop2 = document.getElementById(`popup-${project.id}`);
     showpop2.style.display = 'none';
+  });
+});
+
+projectList.forEach((project) => {
+  const deskCloseBtn = document.getElementById(`deskCloseBtn-${project.id}`);
+  deskCloseBtn.addEventListener('click', () => {
+    const showpop3 = document.getElementById(`popup-${project.id}`);
+    showpop3.style.display = 'none';
   });
 });
