@@ -205,14 +205,11 @@ h4 {
   }
 } */
 
-
-
-
-
 html {
   height: 100%;
   width: 100%;
 }
+
 @import url('https://fonts.googleacontainerpis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -333,25 +330,23 @@ h4 {
 
 .closeBtn {
   background: transparent;
-    border: none;
-    font-size: 50px;
-    cursor: pointer;
-    float: right;
-    color: white;
+  border: none;
+  font-size: 50px;
+  cursor: pointer;
+  float: right;
+  color: white;
 }
 
-/*popup page design */
+/* popup page design */
 
 .overlay {
   width: 100%;
   height: 100vh;
-  background: #C1C7D0;
+  background: #c1c7d0;
   display: none;
   justify-content: center;
   align-items: center;
   position: fixed;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
 }
@@ -378,12 +373,11 @@ h4 {
 }
 
 .popHeading {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   padding-left: 16px;
   margin: 0;
 }
@@ -397,7 +391,7 @@ h4 {
 }
 
 .techItem {
-  background: #EBF0EE; 
+  background: #ebf0ee;
   margin-right: 8px;
   padding: 8px 12px;
   border-radius: 4px;
@@ -405,7 +399,6 @@ h4 {
 
 .popPara {
   padding: 0 16px;
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -422,7 +415,7 @@ h4 {
 
 .popupBtn {
   display: flex;
-  background: #36B37F;
+  background: #36b37f;
   border-radius: 4px;
   border-color: transparent;
   justify-content: center;
@@ -432,7 +425,6 @@ h4 {
 }
 
 .popupBtn a {
-  font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -441,7 +433,7 @@ h4 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -498,7 +490,6 @@ h4 {
     padding: 10px;
   }
 
-
   .see-project {
     padding: 10px;
     background: #36b37f;
@@ -551,4 +542,3 @@ h4 {
     padding-bottom: 0;
   }
 }
-
