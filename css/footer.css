@@ -12,8 +12,11 @@
   font-style: normal;
 }
 
-.errorMsg{
+.errorMsg {
   color: red;
+  margin-left: 15px;
+  margin-top: 22px;
+  width: 50%;
 }
 
 .click:hover {
@@ -154,12 +157,6 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-}
-
-.errorMsg {
-  margin-left: 15px;
-  margin-top: 22px;
-  width: 50%;
 }
 
 @media screen and (min-width: 768px) {
