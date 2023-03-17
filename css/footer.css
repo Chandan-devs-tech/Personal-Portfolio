@@ -12,6 +12,10 @@
   font-style: normal;
 }
 
+.errorMsg{
+  color: red;
+}
+
 .click:hover {
   cursor: pointer;
   background-color: #008552;
