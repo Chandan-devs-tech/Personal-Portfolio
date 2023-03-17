@@ -101,7 +101,6 @@ form textarea {
   border-style: none;
   border-radius: 4px;
   margin-top: 24px;
-  margin-left: 99px;
 }
 
 .footer-social-icons {
@@ -144,6 +143,19 @@ hr {
   height: 4px;
   background: #0d151e;
   border-radius: 10px;
+}
+
+.footer-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorMsg {
+  margin-left: 15px;
+  margin-top: 22px;
+  width: 50%;
 }
 
 @media screen and (min-width: 768px) {
