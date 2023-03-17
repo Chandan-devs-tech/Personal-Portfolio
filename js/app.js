@@ -179,3 +179,14 @@ projectList.forEach((project) => {
     showpop3.style.display = 'none';
   });
 });
+
+// form validation
+const form = document.querySelector('.contact-form');
+const email = document.querySelector('.femail');
+const errorMsg = document.querySelector('.errorMsg');
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorMsg.textContent = 'Your email should be in lowercase';
+  }
+});
