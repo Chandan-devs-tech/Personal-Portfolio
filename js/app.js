@@ -213,4 +213,9 @@ textArea.addEventListener('focusout', storeData);
 
 // Getting stored data
 
-// const uData = JSON.parse(localStorage.getItem('userInfo'));
+const uData = JSON.parse(localStorage.getItem('userInfo'));
+if (uData) {
+  uName.value = uData.userName;
+  email.value = uData.userEmail;
+  textArea.value = uData.userTextMsg;
+}
