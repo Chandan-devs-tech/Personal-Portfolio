@@ -265,7 +265,7 @@ function storeData() {
   localStorage.setItem('userInfo', JSON.stringify(userData));
 }
 
-uName.addEventListener('focusout', storeData;
+uName.addEventListener('focusout', storeData);
 email.addEventListener('focusout', storeData);
 textArea.addEventListener('focusout', storeData);
 
