@@ -1,3 +1,5 @@
+// Menu bar
+
 const menu = document.querySelector('.hamItems');
 const mobileNav = document.querySelector('.mob-nav');
 const ham = document.querySelector('.hamburger');
@@ -32,54 +34,102 @@ const projectList = [
   {
     id: 1,
     title: 'Video Player',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
+    technologies: [
+      'Ruby',
+      'Bootstrap',
+      'Javasctipt',
+      'Codekit',
+      'GitHub',
+      'Codepen',
+    ],
     liveLink: '#',
     sourceLink: '#',
   },
   {
     id: 2,
     title: 'Awesome Book',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
+    technologies: [
+      'Ruby',
+      'Bootstrap',
+      'Javasctipt',
+      'Codekit',
+      'GitHub',
+      'Codepen',
+    ],
     liveLink: '#',
     sourceLink: '#',
   },
   {
     id: 3,
     title: 'To-do List',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
+    technologies: [
+      'Ruby',
+      'Bootstrap',
+      'Javasctipt',
+      'Codekit',
+      'GitHub',
+      'Codepen',
+    ],
     liveLink: '#',
     sourceLink: '#',
   },
   {
     id: 4,
     title: 'Netflix Clone',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
+    technologies: [
+      'Ruby',
+      'Bootstrap',
+      'Javasctipt',
+      'Codekit',
+      'GitHub',
+      'Codepen',
+    ],
     liveLink: '#',
     sourceLink: '#',
   },
   {
     id: 5,
     title: 'Digital Clock',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
+    technologies: [
+      'Ruby',
+      'Bootstrap',
+      'Javasctipt',
+      'Codekit',
+      'GitHub',
+      'Codepen',
+    ],
     liveLink: '#',
     sourceLink: '#',
   },
   {
     id: 6,
     title: 'Spotify Clone',
-    discription: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    discription:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: ['Ruby', 'Bootstrap', 'Javasctipt', 'Codekit', 'GitHub', 'Codepen'],
+    technologies: [
+      'Ruby',
+      'Bootstrap',
+      'Javasctipt',
+      'Codekit',
+      'GitHub',
+      'Codepen',
+    ],
     liveLink: '#',
     sourceLink: '#',
   },
@@ -108,7 +158,15 @@ projectList.forEach((project) => {
 });
 
 // Start of popup section
-const popup = (id, title, discription, imageLink, technologies, liveLink, sourceLink) => `<div class="overlay" id="popup-${id}">
+const popup = (
+  id,
+  title,
+  discription,
+  imageLink,
+  technologies,
+  liveLink,
+  sourceLink,
+) => `<div class="overlay" id="popup-${id}">
     <div class="popupContainer">
       <div class="popupImgContainer1">
         <img class="popupImg" src="./Assets/Snapshoot Portfolio-mobile.svg"/>
@@ -190,3 +248,32 @@ form.addEventListener('submit', (e) => {
     errorMsg.textContent = 'Your email should be in lowercase';
   }
 });
+
+// Preserve data in local-storage
+
+const uName = document.querySelector('.ftext');
+const textArea = document.querySelector('.ftextarea');
+
+// Storing data
+
+function storeData() {
+  const userData = {
+    userName: uName.value,
+    userEmail: email.value,
+    userTextMsg: textArea.value,
+  };
+  localStorage.setItem('userInfo', JSON.stringify(userData));
+}
+
+uName.addEventListener('focusout', storeData);
+email.addEventListener('focusout', storeData);
+textArea.addEventListener('focusout', storeData);
+
+// Getting stored data
+
+const uData = JSON.parse(localStorage.getItem('userInfo'));
+if (uData) {
+  uName.value = uData.userName;
+  email.value = uData.userEmail;
+  textArea.value = uData.userTextMsg;
+}
