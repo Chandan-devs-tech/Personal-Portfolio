@@ -33,54 +33,35 @@ const myWorksSection = document.querySelector('.work-container');
 const projectList = [
   {
     id: 1,
-    title: 'Video Player',
+    title: 'Musical Concert',
     discription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: [
-      'Ruby',
-      'Bootstrap',
-      'Javasctipt',
-      'Codekit',
-      'GitHub',
-      'Codepen',
-    ],
-    liveLink: '#',
-    sourceLink: '#',
+      '🎸 [Rock music concert project] 🌐 A Rock music concert website built with HTML, CSS, and JavaScript, featuring responsive design using Flexbox and Grid layout techniques. 🎶📱 💡 Utilizes semantic HTML, media queries, and dynamic JavaScript with the DOM for an engaging user experience.',
+    imageLink: '../Assets/Concert-page.png',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    liveLink:
+      'https://chandan-devs-tech.github.io/Capstone-Project-MUSICAL-CONCERT-PAGE/',
+    sourceLink:
+      'https://github.com/Chandan-devs-tech/Capstone-Project-MUSICAL-CONCERT-PAGE',
   },
   {
     id: 2,
     title: 'Awesome Book',
     discription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: [
-      'Ruby',
-      'Bootstrap',
-      'Javasctipt',
-      'Codekit',
-      'GitHub',
-      'Codepen',
-    ],
-    liveLink: '#',
-    sourceLink: '#',
+      '📚[Awesome Books] is a simple project which is made using JavaScript and it is adding, removing and storing the books into the local storage of the browser.',
+    imageLink: '../Assets/Awesome-books.png',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    liveLink: 'https://chandan-devs-tech.github.io/Awesome-books/',
+    sourceLink: 'https://github.com/Chandan-devs-tech/Awesome-books',
   },
   {
     id: 3,
-    title: 'To-do List',
+    title: 'To-Do List',
     discription:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLink: './Assets/Snapshoot Portfolio-mobile',
-    technologies: [
-      'Ruby',
-      'Bootstrap',
-      'Javasctipt',
-      'Codekit',
-      'GitHub',
-      'Codepen',
-    ],
-    liveLink: '#',
-    sourceLink: '#',
+      '📑To-do list is a tool that helps to organize a day. It simply lists the things that we need to do and allows us to mark them as complete. I will build a simple website that allows for doing that, and I will do it using ES6 and Webpack!',
+    imageLink: '../Assets/ToDoList.png',
+    technologies: ['HTML5', 'CSS3', 'JavaScript'],
+    liveLink: 'https://chandan-devs-tech.github.io/To-Do-list/dist/',
+    sourceLink: 'https://github.com/Chandan-devs-tech/To-Do-list',
   },
   {
     id: 4,
@@ -135,14 +116,17 @@ const projectList = [
   },
 ];
 
-const htmlStructure = (id, title, technologies) => `<div class="container1">
+const htmlStructure = (
+  id,
+  title,
+  technologies,
+) => `<div class="firstContainer container-${id}">
         <div class="container2">
           <h3>${title}</h3>
           <ul class="list-language">
             <li class="languages">${technologies[0]}</li>
             <li class="languages">${technologies[1]}</li>
             <li class="languages">${technologies[2]}</li>
-            <li class="languages">${technologies[3]}</li>
           </ul>
           <div class="container2-btn">
             <button type="button" id="project-${id}" class="see-project click">See Project</button>
@@ -169,7 +153,7 @@ const popup = (
 ) => `<div class="overlay" id="popup-${id}">
     <div class="popupContainer">
       <div class="popupImgContainer1">
-        <img class="popupImg" src="./Assets/Snapshoot Portfolio-mobile.svg"/>
+        <img class="popupImg popupImg-${id}" src="${imageLink}"/>
       </div>
       <div class="closeBtnContainer">
         <button class="closeBtn" id="closeBtn-${id}">&times</button>
@@ -189,11 +173,11 @@ const popup = (
         </div>
         <div class="popDiv3 popupBtnContainer">
           <button class="popupBtn">
-            <a href="${liveLink}">See Live</a>
+            <a href="${liveLink}" target="_blank">See Live</a>
             <img src="./Assets/see live icon.svg"/>
           </button>
           <button class="popupBtn">
-            <a href="${sourceLink}">See Source</a>
+            <a href="${sourceLink}" target="_blank">See Source</a>
             <img src="./Assets/Vector.svg"/>
           </button>
         </div> 

@@ -39,13 +39,31 @@
   padding-top: 62px;
 }
 
-.container1 {
+.firstContainer {
   background: #ebf0ee;
   outline: 1px solid #d0d9d4;
   border-radius: 8px;
-  background-image: url("/Assets/img_avatar.png");
+  background-image: url("../Assets/img_avatar.png");
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.container-1 {
+  background-image: url("../Assets/Concert-page.png");
+  background-size: 100% 58%;
+  background-repeat: no-repeat;
+}
+
+.container-2 {
+  background-image: url("../Assets/Awesome-books.png");
+  background-size: 100% 58%;
+  background-repeat: no-repeat;
+}
+
+.container-3 {
+  background-image: url("../Assets/ToDoList.png");
+  background-size: 100% 60%;
+  background-repeat: no-repeat;
 }
 
 .container2 {
@@ -343,8 +361,26 @@ h4 {
 
 @media only screen and (min-width: 768px) {
   .popupImg {
-    content: url("../Assets/Snapshoot Portfolio-desktop1.svg");
+    /* content: url("../Assets/Snapshoot Portfolio-desktop1.svg"); */
     width: 100%;
+  }
+
+  .popupImg-1 {
+    background-image: url("../Assets/Concert-page.png");
+    background-size: 100% 58%;
+    background-repeat: no-repeat;
+  }
+
+  .popupImg-2 {
+    background-image: url("../Assets/Awesome-books.png");
+    background-size: 100% 58%;
+    background-repeat: no-repeat;
+  }
+
+  .popupImg-3 {
+    background-image: url("./Assets/ToDoList.png");
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
   }
 
   .popupContainer {
