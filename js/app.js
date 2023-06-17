@@ -36,7 +36,7 @@ const projectList = [
     title: 'Musical Concert',
     discription:
       '🎸 [Rock music concert project] 🌐 A Rock music concert website built with HTML, CSS, and JavaScript, featuring responsive design using Flexbox and Grid layout techniques. 🎶📱 💡 Utilizes semantic HTML, media queries, and dynamic JavaScript with the DOM for an engaging user experience.',
-    imageLink: '../Assets/Concert-page.png',
+    imageLink: './Assets/Concert-page.png',
     technologies: ['HTML5', 'CSS3', 'JavaScript'],
     liveLink:
       'https://chandan-devs-tech.github.io/Capstone-Project-MUSICAL-CONCERT-PAGE/',
@@ -48,7 +48,7 @@ const projectList = [
     title: 'Awesome Book',
     discription:
       '📚[Awesome Books] is a simple project which is made using JavaScript and it is adding, removing and storing the books into the local storage of the browser.',
-    imageLink: '../Assets/Awesome-books.png',
+    imageLink: './Assets/Awesome-books.png',
     technologies: ['HTML5', 'CSS3', 'JavaScript'],
     liveLink: 'https://chandan-devs-tech.github.io/Awesome-books/',
     sourceLink: 'https://github.com/Chandan-devs-tech/Awesome-books',
@@ -58,7 +58,7 @@ const projectList = [
     title: 'To-Do List',
     discription:
       '📑To-do list is a tool that helps to organize a day. It simply lists the things that we need to do and allows us to mark them as complete. I will build a simple website that allows for doing that, and I will do it using ES6 and Webpack!',
-    imageLink: '../Assets/ToDoList.png',
+    imageLink: './Assets/ToDoList.png',
     technologies: ['HTML5', 'CSS3', 'JavaScript'],
     liveLink: 'https://chandan-devs-tech.github.io/To-Do-list/dist/',
     sourceLink: 'https://github.com/Chandan-devs-tech/To-Do-list',
