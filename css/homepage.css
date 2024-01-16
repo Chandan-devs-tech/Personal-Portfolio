@@ -192,7 +192,10 @@ body {
   line-height: 52px;
   text-align: center;
   padding-top: 50px;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff,
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
     1px 1px 0 #fff;
 }
 
@@ -645,7 +648,9 @@ hr {
 
   .footer-img {
     padding: 0;
-    background-image: url("../Assets/Frame1.svg"), url("../Assets/frame2.svg"),
+    background-image:
+      url("../Assets/Frame1.svg"),
+      url("../Assets/frame2.svg"),
       url("../Assets/Frame3.svg");
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-position: 0% 80%, 20% 70%, 100% 55%;
