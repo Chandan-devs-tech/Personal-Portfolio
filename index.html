@@ -4,322 +4,299 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <meta
+      name="description"
+      content="A curated portfolio showcasing my passion and skills in the web development. Explore my projects and creative endeavors."
+    />
+    <link rel="icon" href="Assets/rob.png" type="image/x-icon" />
+    <title>Chandan's Portfolio</title>
     <!-- Google font-family: "INTER" -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <!-- stylesheet links -->
     <link rel="stylesheet" href="css/homepage.css" />
-    <link rel="stylesheet" href="css/work.css" />
-    <link rel="stylesheet" href="css/about-me.css" />
-    <link rel="stylesheet" href="css/languages.css" />
-    <link rel="stylesheet" href="css/footer.css" />
   </head>
   <body>
-    <!-- Header Section Of Portfolio -->
-    <header>
-      <section class="hamItems">
-        <div class="closeBtn">
-          <button class="btnX" type="button">&times</button>
-        </div>
-        <nav class="items">
-          <ul class="subItems">
-            <li class="subItem"><a href="#portfolio">Portfolio</a></li>
-            <li class="subItem"><a href="#about">About</a></li>
-            <li class="subItem"><a href="#contact">Contact</a></li>
+    <section class="homepage">
+      <!-- Header Section Of Portfolio -->
+      <header class="header">
+        <section class="hamItems">
+          <div class="closeBtn">
+            <button class="btnX" type="button">&times</button>
+          </div>
+          <nav class="items">
+            <ul class="subItems">
+              <li class="subItem"><a href="#portfolio">Portfolio</a></li>
+              <li class="subItem"><a href="#about">About</a></li>
+              <li class="subItem"><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </section>
+        <nav class="mob-nav">
+          <a href="#" class="header-title">Welcome</a>
+          <ul class="nav-links">
+            <li class="nav-links-effect"><a href="#portfolio">Portoflio</a></li>
+            <li class="nav-links-effect"><a href="#about">About</a></li>
+            <li class="nav-links-effect"><a href="#contact">Contact</a></li>
+          </ul>
+          <ul class="hamburger" id="ham-button">
+            <li class="stroke"></li>
+            <li class="stroke"></li>
+            <li class="stroke"></li>
           </ul>
         </nav>
-      </section>
-      <nav class="mob-nav">
-        <a href="#" class="header-title">Welcome</a>
-        <ul class="nav-links">
-          <li class="nav-links-effect"><a href="#">Portoflio</a></li>
-          <li class="nav-links-effect"><a href="#">About</a></li>
-          <li class="nav-links-effect"><a href="#">Contact</a></li>
-        </ul>
-        <ul class="hamburger" id="ham-button">
-          <li class="stroke"></li>
-          <li class="stroke"></li>
-          <li class="stroke"></li>
-        </ul>
-      </nav>
-    </header>
-    <!-- Homepage Of Portfolio -->
-    <section class="hero-intro" id="portfolio">
-      <div class="hero-intro-container">
-        <h1 class="hero-intro-heading">
-          Hey there. I’m Chandan<br /><span class="span-text">
-            I’m a software developer</span
-          >
-        </h1>
-        <p class="hero-intro-description">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-        <ul class="social-icons">
-          <li class="icons">
-            <a href="#"><img src="Assets/twitter.svg" alt="Twitter" /></a>
-          </li>
-          <li class="icons">
-            <a href="#"
-              ><img src="Assets/Linkedin icon (1).svg" alt="LinkedIn"
+      </header>
+      <!-- Homepage Of Portfolio -->
+      <section class="hero-intro" id="portfolio">
+        <div class="hero-intro-container">
+          <h1 class="hero-intro-heading"></h1>
+          <!-- <p class="hero-intro-description">
+             A proactive and ambitious Full-stack Web Developer based in Varanasi, India. Honed my Full-stack web development skills at Microverse Remote Development School, spent 1300+ hours learning Data Structures and algorithms, and working on Full-stack projects. -->
+          <p class="hero-intro-description">
+            Proactive Full-stack Web Developer | Microverse Alumnus | Varanasi,
+            India. Skilled in JavaScript, React, Redux, Ruby, and Ruby on Rails,
+            I've successfully delivered 25+ remote web projects, emphasizing
+            strong communication and teamwork. A Computer Science graduate with
+            a passion for continuous learning and innovation. Beyond coding,
+            I've freelanced on responsive web designs, gaining valuable
+            leadership experiences. Eager to collaborate and make a positive
+            impact. Let's create something innovative together!
+          </p>
+          <ul class="social-icons">
+            <li class="icons">
+              <a
+                href="https://twitter.com/ChandanGuptaDev"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://www.linkedin.com/in/chandangupta-devs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/Linkedin icon (1).svg" alt="LinkedIn"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://medium.com/@chandangupta.devs"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/medium.svg" alt="Medium"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://github.com/Chandan-devs-tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/github.svg" alt="GitHub"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://wellfound.com/u/chandan-gupta-63"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/angellist.svg" alt="AngelList"
+              /></a>
+            </li>
+          </ul>
+          <div class="disabled-btn">
+            <a href="#all-works"
+              ><img src="Assets/Disabled.svg" alt="disabled-button"
             /></a>
-          </li>
-          <li class="icons">
-            <a href="#"><img src="Assets/medium.svg" alt="Medium" /></a>
-          </li>
-          <li class="icons">
-            <a href="#"><img src="Assets/github.svg" alt="GitHub" /></a>
-          </li>
-          <li class="icons">
-            <a href="#"><img src="Assets/angellist.svg" alt="AngelList" /></a>
-          </li>
-        </ul>
-        <div class="disabled-btn">
-          <a href="#"
-            ><img src="Assets/Disabled.svg" alt="disabled-button"
-          /></a>
-        </div>
-      </div>
-    </section>
-    <!-- Work Text Section -->
-    <section>
-      <div class="work-text-container">
-        <h2 class="work-text">My Recent Works</h2>
-      </div>
-      <div class="indicator">
-        <div class="indicator-img"></div>
-      </div>
-    </section>
-    <!-- Work Container Section  -->
-    <!-- <section class="work-container">
-      <div class="container1">
-        <div class="container2">
-          <h3>Multi-Post Stories Gain+Glory</h3>
-          <ul class="list-language">
-            <li class="languages">Ruby on rails</li>
-            <li class="languages">css</li>
-            <li class="languages">JavaScript</li>
-            <li class="languages">html</li>
-          </ul>
-          <div class="container2-btn">
-            <button type="button" class="see-project click">See Project</button>
           </div>
         </div>
-      </div>
-      <div class="container1">
-        <div class="container2">
-          <h4>Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-language">
-            <li class="languages">Ruby on rails</li>
-            <li class="languages">css</li>
-            <li class="languages">JavaScript</li>
-            <li class="languages">html</li>
-          </ul>
-          <div class="container2-btn">
-            <button type="button" class="see-project click">See Project</button>
-          </div>
+      </section>
+      <!-- Work Text Section -->
+      <section id="all-works">
+        <div class="work-text-container">
+          <h2 class="work-text">My Recent Works</h2>
         </div>
-      </div>
-      <div class="container1">
-        <div class="container2">
-          <h4>Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-language">
-            <li class="languages">Ruby on rails</li>
-            <li class="languages">css</li>
-            <li class="languages">JavaScript</li>
-            <li class="languages">html</li>
-          </ul>
-          <div class="container2-btn">
-            <button type="button" class="see-project click">See Project</button>
-          </div>
+        <div class="indicator">
+          <div class="indicator-img"></div>
         </div>
-      </div>
-      <div class="container1">
-        <div class="container2">
-          <h4>Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-language">
-            <li class="languages">Ruby on rails</li>
-            <li class="languages">css</li>
-            <li class="languages">JavaScript</li>
-            <li class="languages">html</li>
-          </ul>
-          <div class="container2-btn">
-            <button type="button" class="see-project click">See Project</button>
-          </div>
-        </div>
-      </div>
-      <div class="container1">
-        <div class="container2">
-          <h4>Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-language">
-            <li class="languages">Ruby on rails</li>
-            <li class="languages">css</li>
-            <li class="languages">JavaScript</li>
-            <li class="languages">html</li>
-          </ul>
-          <div class="container2-btn">
-            <button type="button" class="see-project click">See Project</button>
-          </div>
-        </div>
-      </div>
-      <div class="container1">
-        <div class="container2">
-          <h4>Multi-Post Stories Gain+Glory</h4>
-          <ul class="list-language">
-            <li class="languages">Ruby on rails</li>
-            <li class="languages">css</li>
-            <li class="languages">JavaScript</li>
-            <li class="languages">html</li>
-          </ul>
-          <div class="container2-btn">
-            <button type="button" class="see-project click">See Project</button>
-          </div>
-        </div>
-      </div>
-    </section> -->
-    <section class="work-container"></section>
+      </section>
+      <!-- Project Section -->
+      <section class="work-container"></section>
 
-    <!-- About-Me Section -->
-    <section class="about-me" id="about">
-      <div class="primary-text-about-me">
-        <h3 class="primary-text-about-me-heading">About me</h3>
-      </div>
-      <div class="supporting-text-about-me">
-        <p class="supporting-text-about-me-para">
-          I can help you build a product , feature or website Look through some
-          of my work and experience! If you like what you see and have a project
-          you need coded, don’t hestiate to contact me.
-        </p>
-      </div>
-      <div class="about-me-btn">
-        <button type="button" class="get-my-resume-btn click">
-          Get My Resume
-        </button>
-      </div>
-    </section>
-    <!-- Language Section -->
-    <section class="language-main-container">
-      <div class="language-sub-container">
-        <div class="elipse">
-          <img src="Assets/Icon Langguage.svg" alt="Ellipse 1" />
+      <!-- About-Me Section -->
+      <section class="about-me" id="about">
+        <div class="primary-text-about-me">
+          <h3 class="primary-text-about-me-heading">About me</h3>
         </div>
-        <h3 class="language-container-text">Languages</h3>
-        <ul class="list-languages">
-          <li class="language">JavaScript</li>
-          <li class="language">Ruby</li>
-          <li class="language">Html</li>
-          <li class="language">CSS</li>
-        </ul>
-      </div>
-      <div class="language-sub-container">
-        <div class="elipse">
-          <img src="Assets/Icon Name.svg" alt="Ellipse 2" />
-        </div>
-        <h3 class="language-container-text">Frameworks</h3>
-        <ul class="list-language-sub-container">
-          <li class="language">Bootstrap</li>
-          <li class="language">Ruby on rails</li>
-          <li class="language">RSpec</li>
-          <li class="language">Capybara</li>
-          <li class="language">Selenium</li>
-        </ul>
-      </div>
-      <div class="language-sub-container">
-        <div class="elipse">
-          <img src="Assets/Icon Name (1).svg" alt="Ellipse 3" />
-        </div>
-        <h3 class="language-container-text">Skills</h3>
-        <ul class="list-language-sub-container">
-          <li class="language">CodeKit</li>
-          <li class="language">GitHub</li>
-          <li class="language">Codepen</li>
-          <li class="language">Gitlab</li>
-          <li class="language">Terminal</li>
-        </ul>
-      </div>
-    </section>
-    <!-- Footer section -->
-    <footer class="footer-img" id="contact">
-      <div class="footer-desktop-container">
-        <div class="last-msg">
-          <p class="last-msg-text">
-            I'm always interested in hearing about new projects, so if you'd
-            like to chat please get in touch.
+        <div class="supporting-text-about-me">
+          <p class="supporting-text-about-me-para">
+            <!-- I can help you build a product, feature or website Look through some
+            of my work and experience! If you like what you see and have a
+            project you need to create, don’t hesitate to contact me. -->
+            Devoted to continuous growth, I’ve dedicated over 1300 hours to
+            mastering Data Structures, Algorithms, and the complexity of
+            full-stack development. Serving as a mentor to aspiring developers,
+            I'm excited to use my skills and creativity in the ever-changing
+            digital world. Join me on this journey of coding, creativity, and
+            exploration!
           </p>
         </div>
-        <form
-          action="https://formspree.io/f/xaykrgow"
-          method="post"
-          id="form"
-          class="contact-form"
-        >
-          <input
-            type="text"
-            class="ftext"
-            placeholder="Full name"
-            maxlength="30"
-            aria-label="Full name"
-            required
-          />
-          <input
-            type="email"
-            class="femail"
-            placeholder="Email address"
-            aria-label="Email address"
-            required
-          />
-          <textarea
-            name="message"
-            id="message"
-            class="ftextarea"
-            maxlength="500"
-            placeholder="Enter text here"
-            aria-label="Enter text here"
-            required
-          ></textarea>
-          <div class="footer-btn">
-            <button class="get-in-touch click" type="submit">
-              Get in touch
-            </button>
-            <span class="errorMsg"></span>
-          </div>
-        </form>
-      </div>
-      <div class="footer-social-icons-container">
-        <ul class="footer-social-icons">
-          <li class="icons">
-            <a href="#"><img src="Assets/twitter.svg" alt="Twitter" /></a>
-          </li>
-          <li class="icons">
-            <a href="#"
-              ><img src="Assets/Linkedin icon (1).svg" alt="LinkedIn"
-            /></a>
-          </li>
-          <li class="icons">
-            <a href="#"><img src="Assets/medium.svg" alt="Medium" /></a>
-          </li>
-          <li class="icons">
-            <a href="#"><img src="Assets/github.svg" alt="GitHub" /></a>
-          </li>
-          <li class="icons">
-            <a href="#"><img src="Assets/angellist.svg" alt="Angel-List" /></a>
-          </li>
-        </ul>
-        <div class="footer-frame-mob">
-          <img src="Assets/Footer-Frame-Mob.svg" alt="frame1" />
+        <div class="about-me-btn">
+          <a
+            href="./Assets/Chandan_Gupta_Resume.pdf"
+            download="Chandan's Resume.pdf"
+            class="get-my-resume-btn click"
+            >Get My Resume</a
+          >
         </div>
-      </div>
-      <h3 class="footer-email">chandanguptabsb@gmail.com</h3>
-      <div class="footer-hr">
-        <hr />
-      </div>
-    </footer>
+      </section>
+      <!-- Language Section -->
+      <section class="language-main-container">
+        <div class="language-sub-container">
+          <div class="elipse">
+            <img src="Assets/Icon Langguage.svg" alt="Ellipse 1" />
+          </div>
+          <h3 class="language-container-text">Languages</h3>
+          <ul class="list-languages">
+            <li class="language">HTML</li>
+            <li class="language">CSS</li>
+            <li class="language">JavaScript</li>
+            <li class="language">Ruby</li>
+            <li class="language">Python</li>
+          </ul>
+        </div>
+        <div class="language-sub-container">
+          <div class="elipse">
+            <img src="Assets/Icon Name.svg" alt="Ellipse 2" />
+          </div>
+          <h3 class="language-container-text">Frameworks</h3>
+          <ul class="list-language-sub-container">
+            <li class="language">React</li>
+            <li class="language">Ruby on rails</li>
+            <li class="language">RSpec</li>
+            <li class="language">Capybara</li>
+            <li class="language">Tailwind</li>
+          </ul>
+        </div>
+        <div class="language-sub-container">
+          <div class="elipse">
+            <img src="Assets/Icon Name (1).svg" alt="Ellipse 3" />
+          </div>
+          <h3 class="language-container-text">Skills</h3>
+          <ul class="list-language-sub-container">
+            <li class="language">CodeKit</li>
+            <li class="language">GitHub</li>
+            <li class="language">Codepen</li>
+            <li class="language">Gitlab</li>
+            <li class="language">Terminal</li>
+          </ul>
+        </div>
+      </section>
+      <!-- Footer section -->
+      <footer class="footer-img" id="contact">
+        <div class="footer-desktop-container">
+          <div class="last-msg">
+            <p class="last-msg-text">
+              I'm always interested in hearing about new projects, so if you'd
+              like to chat please get in touch.
+            </p>
+          </div>
+          <form
+            action="https://formspree.io/f/xaykrgow"
+            method="post"
+            id="form"
+            class="contact-form"
+          >
+            <input
+              name="userName"
+              type="text"
+              class="ftext"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+            <input
+              name="userEmail"
+              type="email"
+              class="femail"
+              placeholder="Email address"
+              required
+            />
+            <textarea
+              name="userMessage"
+              id="message"
+              class="ftextarea"
+              maxlength="500"
+              cols="30"
+              rows="10"
+              placeholder="Enter text here"
+              required
+            ></textarea>
+            <div class="footer-btn">
+              <button class="get-in-touch click" type="submit">
+                Get in touch
+              </button>
+              <span class="errorMsg"></span>
+            </div>
+          </form>
+        </div>
+        <div class="footer-social-icons-container">
+          <ul class="footer-social-icons">
+            <li class="icons">
+              <a
+                href="https://twitter.com/ChandanGuptaDev"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/twitter.svg" alt="Twitter"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://www.linkedin.com/in/chandangupta-devs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/Linkedin icon (1).svg" alt="LinkedIn"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://medium.com/@chandangupta.devs"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/medium.svg" alt="Medium"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://github.com/Chandan-devs-tech"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/github.svg" alt="GitHub"
+              /></a>
+            </li>
+            <li class="icons">
+              <a
+                href="https://wellfound.com/u/chandan-gupta-63"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="Assets/angellist.svg" alt="AngelList"
+              /></a>
+            </li>
+          </ul>
+          <div class="footer-frame-mob">
+            <img src="Assets/Footer-Frame-Mob.svg" alt="frame1" />
+          </div>
+        </div>
+        <h3 class="footer-email">chandanguptabsbs@gmail.com</h3>
+        <div class="footer-hr">
+          <hr />
+        </div>
+      </footer>
+    </section>
     <script src="js/app.js"></script>
   </body>
 </html>
